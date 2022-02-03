@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 63.5%;
+}
+body{
+    color: white;
+    font-size: 2rem;
+    overflow-x: hidden;
+}
+p{
+    width: 100%;
+    font-size: 3rem;
+    font-family: 'Supermercado One', cursive;
+}
+button{
+    font-family: 'Supermercado One', cursive;
+
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dark-mode-bg{
+    background-color: #282c34;
+}
+.day-mode-bg{
+    color:black;
+    background-color: #EEEEEE;
+}
+.child{
+    width: 80%;
+    height:40%;
+    display: flex;
+    /* border: 2px solid hotpink; */
+    border-radius: 10px;
+    box-shadow: -1px 2px 15px 5px rgba(0,0,0,0.71);
+    padding: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.child-day{
+    box-shadow: 6px 10px 45px 7px #91C4A8;
+}
+.main-wraper{
+    /* border below */
+    /* border: 2px solid hotpink; */
+}
+.child-wrapper{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+.ref-dark-btn-wrapper{
+    width: 30%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btn button{
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.6rem;
+    border-radius: 10px;
+    color: black;
+    border: none;
+    background-color: #FFF323;
+}
+.btn .dark-mode{
+    color: white;
+    background-color: #000000;
+}
+.fa-sun{
+    color: #FFF323;
+}
+@media  (max-width:968px) {
+    p{
+        width: 100%;
+        font-size: 2.1rem;
+    }
+    .ref-dark-btn-wrapper{
+        width:100%;
+        height:4rem;
+    }
+    .btn button{
+        width: 12rem;
+    }
+}

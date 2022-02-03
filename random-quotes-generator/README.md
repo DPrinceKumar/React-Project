@@ -1,0 +1,1 @@
+[Go to website](https://random-quotes-generator-d859e.web.app)
