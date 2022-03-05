@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&family=Supermercado+One&display=swap');
+
+:root{
+    --nav-bar-color:#212121;
+    --hover-font-color:#fec400;
+    --body-background:#181818;
+    --white-color:#ffff;
+    --zebra-strap:#212121;
+
+}
+.header{
+    background-color: var(--body-background);
+    color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+ li > a:link {
+    color: var(--white-color);
+  text-decoration: none;
+}
+
+ li > a:visited {
+    color: var(--white-color);
+  text-decoration: none;
+}
+
+ li > a:hover {
+    color: var(--hover-font-color);
+  text-decoration: none;
+}
+
+ li > a:active {
+    color: var(--white-color);
+  text-decoration: none;
+}
+/* ===============Header NavBar Start=============== */
+.navbar{
+    width: 100%;
+    height: 6rem;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    padding: 1rem 6rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Supermercado One', cursive;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-bar-color);
+}
+.navbar-wrapper{
+    margin-bottom: 6rem;
+}
+.logo-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav-bar-image {
+    width: 5rem;
+    height: 5rem;
+    margin-right:1rem ;
+}
+.nav-bar-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.nav-bar-title p{
+    margin-bottom: 0;
+}
+.menu-wrapper{
+    display: none;
+}
+.nav-list{
+    width: 80%;
+    margin-right: auto;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    
+}
+.nav-list ul li{
+    list-style: none;
+    margin:0rem 2rem;
+    display: inline;
+}
+.nav-list li:hover,.nav-list li:focus{
+    color: var(--hover-font-color);
+}
+.portfolio-resume-btn{
+    font-size: 2rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Supermercado One', cursive;
+    background-color: var(--hover-font-color);
+    color: var(--nav-bar-color);
+}
+.portfolio-resume-btn > a{
+color: #181818;
+}
+.portfolio-resume-btn a:hover{
+    font-size: 1.9rem;
+
+}
+/* ===============Header NavBar End=============== */
+/* ===============Header body Start=============== */
+.header-body{
+    height: 95vh;
+    width: 100%;
+    padding: 0rem 6rem 1rem;
+    font-size: 3rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.left-body-wrapper{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.hey-body-wrapper{
+    width: 100%;
+    padding: 1rem;
+}
+.intro-wrapper{
+    width: 100%;
+    margin-bottom: 0rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    position: relative;
+    bottom: 2.5rem;
+}
+.intro-wrapper h3{
+    width: 100%;
+    color: var(--white-color);
+    margin-bottom: 0rem;
+}
+.intro-wrapper h1 > span{
+    letter-spacing: -0.5rem;
+}
+.intro-wrapper h1{
+    font-size: 10rem;
+    margin-bottom: 0rem;
+    line-height:10rem;
+    color: var(--white-color);
+}
+
+.social-link{
+    width: 50%;
+    position: relative;
+    bottom:2rem;
+}
+.link-list ul {
+    margin-bottom: 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3rem;
+}
+.link-list li{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: #fec400;
+    color: var(--nav-bar-color);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+}
+.right-body-wrapper{
+    height: 100vh;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.blob-img-wrapper{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.blue-blob{
+    width: 100%;
+    height: 100%;
+}
+.yellow-blob{
+    width: 80%;
+    position: absolute;
+    left: 5rem;
+    bottom: 7rem;
+}
+.gradient-blob{
+    position: absolute;
+    bottom: 13rem;
+    right: 5rem;
+}
+.picture{
+    position: absolute;
+    top:1rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.picture >img{
+    width: 90%;
+}
+.download-btn {
+    display: flex;
+    flex-direction: column;
+}
+/* ===============Header body end=============== */
+
+/* ===============Who am I Start=============== */
+.who-am-i-wrapper{
+    height:100%;
+    padding: 8rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:var(--zebra-strap) ;
+}
+.who-am-i-title h1,
+.header-project h1,
+.portfolio-achivement-title h1,
+.portfolio-contact-title h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 10rem;
+    background-image: linear-gradient(126deg, #baffb3, #6f99bd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+
+}
+.who-am-i-para{
+    padding: 0rem 6rem;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 2rem;
+    color: var(--white-color);
+}
+.who-am-i-img{
+    transform: translateX(2deg);
+}
+.para{
+    width:70%;
+}
+.para P:nth-child(2){
+    text-align: center;
+}
+.whatsapp-icon{
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 2rem;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    z-index: 100;
+    color:#ffff;
+    font-size: 2.5rem;
+}
+/* ===============Who am I Ends=============== */
+/* ===============Projects Starts=============== */
+.project{
+    padding: 5rem 6rem 0rem;
+    background-color: var(--body-background);
+    color: var(--white-color);
+    font-size: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-project-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+}
+
+.project-title > h3{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(108deg, #f5b03e, #f53ec2);
+    font-size: 3rem;
+    text-shadow: 0 0 30px rgb(250 115 111 / 70%);
+    margin-bottom: 3rem;
+}
+.project-main-left iframe{
+    margin-left: 2rem;
+    width:30vw;
+    height:70vh;
+}
+.project-main-right iframe{
+    margin-right: 2rem;
+    width:30vw;
+    height:70vh;
+}
+.project-para{
+    display: flex;
+    flex-direction: row;
+}
+.project-para-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.project-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+    padding: 5rem;
+}
+
+.project-body-para ul{
+    position: relative;
+    left: 5rem;
+    list-style-type: "📌  " ;
+    list-style-position: outside;
+    width: 85%;
+    text-align: start;
+}
+.project-body-para ul li{
+    margin-top: 2rem;
+}
+.project-body-para-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-top: 5rem;
+    /* border: 1px solid saddlebrown; */
+}
+/* ===============Slider Wrapper Start's =============== */
+.portfolio-achivement-wrapper{
+    padding: 6rem 6rem;
+    background-color:var(--zebra-strap) ;
+}
+.portfolio-achivement-title h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-achivement-list{
+    width: 100%;
+    padding: 3rem 0rem;
+}
+.portfolio-achivement-card-wrapper{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-img img{
+    margin: 0 auto;
+    width: 30rem;
+    height: 40rem;
+    margin-bottom: 2rem;
+}
+.card-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color:#fff;
+}
+.card-body h3{
+    color: #baffb3;
+    margin-bottom: 0;
+}
+.card-body p{
+    width: 90%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.slick-dots li.slick-active button:before {
+       color: #baffb3;
+}
+
+/* ===============Slider Wrapper End's =============== */
+/* ===============Contact Wrapper End's =============== */
+.portfolio-contact-wrapper{
+    background-color: var(--body-background);
+    padding: 6rem 3rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-contact{
+    width: 80%;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.portfolio-feedback{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio-feedback-button{
+    text-align: center;
+    width: 50%;
+}
+.email{
+    color: var(--white-color);
+    opacity: 0.6;
+}
+.email p{
+    margin-bottom: 0;
+}
+.email-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.email-icon-wrapper{
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: var(--hover-font-color);
+}
+/* ===============Contact Wrapper End's =============== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============Media =============== */
+@media (max-width:900px){
+    .navbar{
+        /* display: none; */
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+        background-color: var(--nav-bar-color);
+        height: max-content;
+    }
+    .menu-wrapper{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logo-wrapper{
+        width: 100%;
+        display: flex;
+    }
+    .nav-bar-image {
+        height: 5rem;
+        width: 6rem;
+        /* flex-direction: row; */
+    }
+    .nav-bar-title{
+        width:100%;
+    }
+    .nav-bar-title p{
+        display: inline;
+        width: 100%; 
+    }
+    .menu-wrapper{
+        position: relative;
+        top: 1rem;
+        font-size:3rem;
+    }
+    .show{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .nav-list ul{
+        flex-direction: column;
+    }
+    .nav-list ul li{
+        margin: 1rem 0;
+    }
+}

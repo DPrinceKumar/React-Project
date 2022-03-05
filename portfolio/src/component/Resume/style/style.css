@@ -1,0 +1,217 @@
+::-webkit-scrollbar{
+    display: none;
+}
+
+.resume-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid grey;
+    box-shadow: 0px 0px 12px 2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+.ResumeBasicDetail,.ResumeContent{
+    width: 25%;
+    height: 100%;
+    margin: 2.5rem;
+    border-radius: 5px;
+}
+.ResumeBasicDetail{
+    border: 1px solid grey;
+}
+.ResumeContent{
+    width: 75%;
+}
+.go-back{
+    margin-bottom: 2rem;
+}
+.go-back .resume-go-back{
+    color: black;
+    margin-bottom: 3rem;
+}
+.go-back .resume-go-back:hover{
+    color: blue;
+}
+/* ========================Resume Basic Details Start===================== */
+.baisc-details-wrapper{
+    width: 100%;
+}
+
+/* ========================Identity section  Start===================== */
+.Identity-wrapper,
+.about-wrapper-container,
+.contact-wrapper-container,
+.skill-wrapper-container{
+    margin: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Identity-wrapper h2{
+    margin:0.5rem 0rem ;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.Identity-wrapper img{
+    padding: 1rem 0rem 0rem 0rem;
+    width: 60%;
+    border-radius: 50%;
+}
+/* ========================Identity section  End===================== */
+
+/* ========================About Wrapper  Start===================== */
+
+.about-wrapper,.contact-wrpper{
+    width: 70%;
+}
+.about-wrapper h3, .contact-wrpper h3,.skill-wrapper h3{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    justify-content: flex-start;
+}
+.about-wrapper p{
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+/* ========================About Wrapper  end===================== */
+
+
+/* ========================contact Wrapper  Start===================== */
+.contact-wrapper-container h3,
+.skill-wrapper-container h3{
+    width: 70%;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.icons{
+    width:10%;
+    font-size: 2rem;
+}
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.contact-icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+.contact-icon p{
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+.phone{
+    transform: rotate(90deg);
+}
+/* ========================Contact wrapper end===================== */
+
+/* ========================skill wrapper Start ===================== */
+
+.skill-wrapper{
+    width: 70%;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skill{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill h4{
+    width: 35%;
+    margin: 0rem;
+    font-weight: normal;
+    justify-content: flex-start;
+}
+.skill-rating{
+    width: 60%;
+    align-items: center;
+}
+/* ========================Skill wrapper Ends===================== */
+/* ========================Resume Basic Details End===================== */
+
+
+
+
+
+/* ========================Resume Content Start===================== */
+
+/* ========================Education Start===================== */
+.resume-content-wrapper{
+    width: 100%;
+}
+.education-wrapper-container,
+.project-wrapper-container,
+.achievement-wrapper-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0rem 1rem;
+    border: 1px solid gray;
+    margin-bottom:2rem ;
+    border-radius: 5px;
+}
+.educations-wrapper h3,
+.projects-wrapper h3,
+.achievement-wrapper h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.479);
+}
+.degree-wrapper{
+    margin: 1rem;
+}
+.degree-name,.institution-marks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-between;
+}
+.degree-name h4,.project-name h4{
+    font-size:1.9rem;
+}
+.institution-marks{
+    width: 50%;
+    justify-content:space-between;
+    text-indent: 2rem;
+
+}
+.institution-marks h5{
+    font-size: 1.2rem;
+}
+/* ========================Education End===================== */
+/* ========================Project Start===================== */
+.project-function-wrapper{
+    width: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+.project-function-list-wrapper ul{
+    margin-left:3rem;
+    margin-bottom: 0rem;
+}
+/* ========================Project End===================== */

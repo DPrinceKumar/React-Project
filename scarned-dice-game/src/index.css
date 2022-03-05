@@ -1,0 +1,102 @@
+@import url('http://fonts.cdnfonts.com/css/karmatic-arcade');
+@import url('http://fonts.cdnfonts.com/css/arcade-classic');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 63.5%;
+}
+.dice-game-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: url("./images/arcade4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+}
+.dice-game-title > h1 {
+    font-family: 'Karmatic Arcade', sans-serif !important;                                     
+    color:#aaa;
+    margin-top:5%;
+    margin-bottom: 3%;
+    font-size: 1.8rem;
+}
+
+#dice-current-dice-face {
+    width:100px;
+    height: 100px;
+}
+
+
+#dice-current-player-turn {
+    font-family: 'ArcadeClassic', sans-serif !important;
+    margin-bottom: 1rem;
+    font-size: 8rem;
+    color: darkorange;
+}
+.dice-current-btn {
+    background: #6e6565;
+    border-bottom: 6px inset rgba(0, 0, 0, 0.5);
+    border-left: 6px inset rgba(0, 0, 0, 0.5);
+    border-right: 6px inset rgba(255, 255, 255, 0.5);
+    border-top: 6px inset rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-family: 'ArcadeClassic', sans-serif;
+    font-size: 3rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.dice-current-btn:focus, .dice-current-btn:hover {
+background: #BCBCBC;
+}
+
+.dice-current-btn.dice-current-primary {
+background: #881400;
+}
+
+.dice-current-btn.dice-current-primary:focus, .dice-current-btn.dice-current-primary:hover {
+background: #A81000;
+}
+
+.dice-current-score{
+    font-family: 'ArcadeClassic', sans-serif !important;
+    font-size: 4rem;
+    color:darkslategray;
+}
+.total-parent-score {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-family: 'Karmatic Arcade', sans-serif !important;
+    font-size: 2rem;
+    color:darkslategray;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 3rem;
+    left:12rem
+}
+
+.total-parent-score  p {
+    font-family: 'Karmatic Arcade', sans-serif !important;
+    width: 90%;
+    height:70%;
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: azure;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3rem;
+}

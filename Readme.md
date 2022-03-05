@@ -4,3 +4,4 @@
 3. [Todo](https://todowithoutlocalstorage.web.app/)
 4. [Payment App Ui](https://reactpay-f0ee8.web.app/)
 5. [Weather App using API](https://weatherapp-44b60.web.app)
+6. [Scarned Dice Game](https://scarned-dice-game.web.app/)
