@@ -1,6 +1,5 @@
 ## Firebase link to some Projects
-# 0. Portfolio
-
+0. Portfolio
 [Portfolio Link](https://portfolio-45644.web.app/)
 1. [Random Quotes ](https://random-quotes-generator-d859e.web.app)
 2. [Clock](https://clock-2aa77.web.app)
