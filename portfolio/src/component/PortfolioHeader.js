@@ -64,9 +64,9 @@ const PortfolioHeader = () => {
                     <div className="social-link">
                         <div className="link-list">
                             <ul>
-                                <li><FaLinkedinIn /></li>
-                                <li><FaGithub /></li>
-                                <li><FaTwitter /></li>
+                                <li> <a href="https://bit.ly/p-linkedin"><FaLinkedinIn /></a></li>
+                                <li> <a href="https://bit.ly/p-github"><FaGithub /></a></li>
+                                <li> <a href="https://bit.ly/p-twitter"><FaTwitter /></a></li>
                             </ul>
                         </div>
                     </div>

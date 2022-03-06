@@ -29,7 +29,7 @@ const ProfileContact = (props) => {
                   </div>
                     
                   <div className="portfolio-feedback-button portfolio-resume-btn"
-                      onClick={() => { alert("working on form, it will get added in before 28'th feb")}}>
+                      onClick={() => { alert("working on form, it will get added soon")}}>
                       Send Feedback
                       {/* onClick={() => window.open(true)} */}
                   </div>

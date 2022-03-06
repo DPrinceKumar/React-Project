@@ -57,8 +57,8 @@ const PortfolioCertification = () => {
                     <div className="portfolio-achivement-list">
                         <Slider {...settings}>
                             {getCarousalCard("./images/android-Certificate.png", "Project Completion Certificate By IBM Allsoft", "In this summer Traning me and my teammate's have developed Resturent Management app","android")}
-                            {getCarousalCard("https://graphicsfamily.com/wp-content/uploads/edd/2021/02/Portrait-Vertical-Orange-Certificate.jpg", "Project Completion Certificate--SAMPLE", "During my summer internship I created an E-commerece website using Laravel and SQL","sample")}
-                            {getCarousalCard("https://graphicsfamily.com/wp-content/uploads/edd/2021/02/Portrait-Vertical-Orange-Certificate.jpg", "Project Completion Certificate--SAMPLE", "During my summer internship I created an E-commerece website using Laravel and SQL","sample")}
+                            {getCarousalCard("./images/react-certi.png", "Front-End Web Development with React By Coursera", "During this course by Coursera, I created a Resturent website using React, Bootstrap","React")}
+                            {getCarousalCard("./images/bootstrap-certi.png", "Front-End Web UI Frameworks and Tools: Bootstrap 4 By Coursera", "During this course by Coursera, I created a Resturent website using React, Bootstrap","Bootstrap")}
                             {getCarousalCard("https://graphicsfamily.com/wp-content/uploads/edd/2021/02/Portrait-Vertical-Orange-Certificate.jpg", "Project Completion Certificate--SAMPLE", "During my summer internship I created an E-commerece website using Laravel and SQL","sample")}
 
                         </Slider>
